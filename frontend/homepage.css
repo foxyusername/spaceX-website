@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#father-container{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    background-color:rgb(0, 0, 0);
+    background-image: url(astronaut.jpg);
+    background-size:cover;
+    background-position: top;
+    align-items:first baseline;
+    overflow: hidden;
+    }
+#text{
+    position:relative;
+    width:270px;
+    height: 35vh;
+    border: 2px solid rgb(8, 23, 240);
+   background-color: white;
+   background-image: url(quote1.jpg);
+   background-size: cover;
+   background-position:center;
+   border-radius: 30px;
+   box-shadow: 6px 6px 10px blue;
+   right:20px;
+   top:-20px;
+   transform: scale(0.7);
+   transition: all 0.1s ;
+}
+#text:hover{
+    transform: scale(0.8);
+}
+
+#info{
+    border: 2px solid rgb(253, 251, 251);
+    font-family:monospace;
+    font-size: 13px;
+    color: hsl(288, 26%, 96%);
+    background: #2c0499; 
+    position: relative;
+    width:600px;
+  height:103vh; 
+  left: 110px;
+  bottom:150px;
+  visibility:hidden;
+  align-items:center;
+  text-shadow: 0.5px 0.5px 7px rgb(223, 220, 220);
+  box-shadow: 1px 1px 10px rgb(255, 255, 254);
+  cursor: default;
+}
+
+h1{
+    position: relative;
+    top:90px;
+    padding-left: 55px;
+    padding-top: 50px;
+}
+
+#text2{
+    position:relative;
+    top:270px;
+    right:840px;
+    color: rgb(203, 172, 247);
+    text-shadow: 2px 2px 6px rgb(123, 62, 245);
+    cursor: default;
+    border-radius: 20px;
+}
+
+
+#btn-container{
+position: absolute;
+    display: flex;
+color: rgb(255, 255, 255);
+width:auto;
+height: auto;
+border-radius: 20px;
+top:35px;
+left:870px;
+font-size: 25px;
+font-family:serif;
+cursor: default;
+}
+
+.btn{
+    padding-right: 40px;
+    cursor: pointer;
+    text-shadow: 3px 3px 10px rgb(245, 59, 229);
+}
+
+#home-btn:before{
+    content:'';
+    position: absolute;
+    left:-4px;
+    right:0;
+    bottom:0;
+   border-bottom: 1px solid red;
+    width:80px;
+    background-color:blue;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+#home-btn:hover::before,
+#home-btm:focus::before{
+    transform: scaleX(1);
+}
+
+#about-btn:before{
+    content:'';
+    position: absolute;
+    left:110px;
+    right:0;
+    bottom:0;
+   border-bottom: 1px solid rgb(255, 3, 3);
+    width:88px;
+    background-color:blue;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+#about-btn:hover::before,
+#about-btn:focus::before{
+    transform: scaleX(1);
+}
+#login-btn:before{
+    content:'';
+    position: absolute;
+    left:232px;
+    right:0;
+    bottom:0;
+   border-bottom: 1px solid rgb(255, 3, 3);
+    width:85px;
+    background-color:blue;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+#login-btn:hover::before,
+#login-btn:focus::before{
+    transform: scaleX(1);
+}
+#profile-btn:before{
+    content:'';
+    position: absolute;
+    left:350px;
+    right:0;
+    bottom:0;
+   border-bottom: 1px solid rgb(255, 3, 3);
+    width:107px;
+    background-color:blue;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+#profile-btn:hover::before,
+#profile-btn:focus::before{
+    transform: scaleX(1);
+}

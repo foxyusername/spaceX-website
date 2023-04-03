@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>homepage</title>
+</head>
+<body>
+   <div id="father-container">
+
+    <section id="text"></section>
+ 
+
+
+ <div id="info">
+  <h1>first name: <%= name %></h1>
+  <h1>last name: <%= lastname %></h1>
+  <h1>email: <%= email %></h1>
+  <h1>password: <%= password %> </h1>
+ </div>
+
+
+   <section id="btn-container" data-aos="fade-out" data-aos-duration="1700">
+  <div id="home-btn" class="btn" >HOME</div>
+   <div id="about-btn" class="btn">ABOUT</div>
+   <div id="login-btn" class="btn">LOGIN</div>
+   <div id="profile-btn" class="btn">PROFILE</div>
+</section>
+
+
+<section id="text2" data-aos="fade-left" data-aos-duration="1300">
+<h3>𝐰𝐡𝐞𝐫𝐞 𝐝𝐨𝐞𝐬 𝐬𝐩𝐚𝐜𝐞 𝐛𝐞𝐠𝐢𝐧 𝐚𝐧𝐝 𝐰𝐡𝐞𝐫𝐞 𝐢𝐬 𝐢𝐭 ?<br>
+  𝕋𝕠 𝕒𝕟𝕤𝕨𝕖𝕣 𝕥𝕙𝕚𝕤 𝕢𝕦𝕖𝕤𝕥𝕚𝕠𝕟 𝕪𝕠𝕦 𝕙𝕒𝕧𝕖 𝕥𝕠 𝕔𝕠𝕞𝕖 𝕨𝕚𝕥𝕙 us</h3>
+</section>
+
+</div>
+   <script src="home.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

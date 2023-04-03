@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#father-box{
+width: 100%;
+height: 100vh;
+}
+section{
+    width: 100vh;
+}
+#first-container{
+    background-color: red;
+    background-image: url(cosmosstart.jpg);
+    width:100%;
+    height: 100vh;
+    border-bottom: 4px solid blue;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+}
+
+#father-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image: url(image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: center;
+    align-items: center;
+}
+
+#label{
+    font-size: 130px;
+    font-family:serif;
+    position:absolute;
+     color:rgb(243, 247, 246);
+     border: 3px solid rgb(0, 119, 255);
+     box-shadow:3px 3px 10px rgb(2, 48, 255);
+    width:auto;
+    transform: scale(1.1);
+    border-radius: 30px;
+    z-index: 1;
+    transition: all 0.2s;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(12, 12, 12, 0.774);
+    cursor: default;
+    text-align: center;
+    top:120px;
+}
+#info{
+    border: 2px solid whitesmoke;
+}
+#div{
+    position: relative;
+    width:auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    font-family:serif ;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    bottom: 80px;
+    cursor: default;
+}
+#button{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+    background-color: rgb(5, 35, 201);
+    border-radius: 30px;
+    width: 270px;
+    height: 60px;
+    box-shadow: 4px 3px 10px rgb(16, 32, 255);
+    cursor: pointer;
+    transition: 0.25s;
+    top:60px;
+    left:-20px;
+    transition: all 0.2s;
+}
+ 
+#button:hover{
+    transform: scale(1.1);
+    background-color: blueviolet;
+    box-shadow: 4px 3px 10px rgb(156, 37, 253);
+}
+
+
+
+#div2{
+    font-family:sans-serif;
+    position: relative;
+    border: 1px solid black;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    width: 500px;
+    top:-60px;
+     left:170px;
+     border: 2px solid rgb(0, 0, 0);
+     border-radius: 10px;
+     cursor:default;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.514);
+}
+#starting-button{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width:170px;
+    height: 40px;
+    font-size: 20px;
+    font-family:fantasy;
+    border-radius: 50px;
+    color: rgb(10, 10, 10);
+    top:250px;
+   cursor: pointer;
+   box-shadow: 5px 5px 10px rgb(2, 2, 2);
+}
